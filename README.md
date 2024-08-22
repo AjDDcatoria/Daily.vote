@@ -40,7 +40,7 @@
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/yourusername/daily-vote.git
+    git clone git@github.com:AjDDcatoria/Daily.vote.git
     cd daily-vote
 
     ```
