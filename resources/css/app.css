@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgb(8, 8, 9) !important;
+}
+
+div.card-div {
+    background-color: rgb(43, 43, 50);
+}
+
+div.card-bg-green {
+    background-color: rgba(5, 69, 20, 0.245);
+    border: 1px solid rgb(8, 155, 8);
+}
+
+div.card-bg-yellow {
+    background-color: rgba(65, 68, 3, 0.235);
+    border: 1px solid rgb(84, 155, 8);
+}
+
+div.card-bg-blue {
+    background-color: rgba(10, 3, 68, 0.25);
+    border: 1px solid rgb(54, 15, 184);
+}
+
+div.card-bg-purple {
+    background-color: rgba(68, 3, 46, 0.25);
+    border: 1px solid rgb(184, 15, 136);
+}
+
+div.card-bg-red {
+    background-color: rgba(3, 60, 68, 0.215);
+    border: 1px solid rgb(15, 147, 184);
+}
+
+.grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid > div.container {
+    height: fit-content;
+}
